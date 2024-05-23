@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "APIkey不正确或为空，请前往[登录](/#/auth)页输入正确的APIkey，**[阿焚Chat使用教程](https://dv10r1j506l.feishu.cn/wiki/RTnYwrk8jieF7Xk23cHcbCHjnFb)**。",
   },
   Auth: {
     Title: "需要密码",
@@ -287,7 +287,7 @@ const cn = {
       OpenAI: {
         ApiKey: {
           Title: "API Key",
-          SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
+          SubTitle: "OpenAI Key",
           Placeholder: "OpenAI API Key",
         },
 
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "有什么可以帮你的吗？   **[阿焚Chat使用教程](https://dv10r1j506l.feishu.cn/wiki/RTnYwrk8jieF7Xk23cHcbCHjnFb)**",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
